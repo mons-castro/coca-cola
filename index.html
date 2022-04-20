@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website Description -->
+    <meta property="og:image"
+        content="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/Celia/celia-bienvenida.png" />
+    <meta property="og:description"
+        content="En Fundación Coca-Cola queremos reconocer e impulsar a las tenderas y los tenderos en México. Con este curso diseñado especialmente para ti mejorarás el manejo de tu tienda de abarrotes o miscelánea, tu salud financiera y tu desempeño como empresaria o empresario." />
+    <meta property="og:title" content="Programa de Empoderamiento de Mujeres y Pequeños Negocios" />
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="src/css/animate.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="shortcut icon" href="src/media/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="src/media/favicon.ico" type="image/x-icon">
+
+    <title>Empoderamiento de Mujeres y Pequeños Negocios</title>
+</head>
+
+<body style="background-image: url(src/media/images/textura.png);">
+    <!-- Navbar -->
+    <nav class="fixed-top navbar nav-bar navbar-expand-lg navbar-mainbg">
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i><img src="src/media/svg/coca-fundation.png" class="img-fluid" width="200"></img>
+        </button>
+        
+        <div class="dropdown navbar-right drop-right text-white" style="display:none">
+            <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user text-white" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right content-drop" aria-labelledby="dropdownMenuButton">
+                <a class="nav-link text-secondary" href="view/auth/inicio-sesion/iniciar-sesion.php">Iniciar Sesión</a>
+                <a class="nav-link text-secondary" href="view/auth/registro/registro.php">Registrarse</a>
+            </div>
+        </div> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <li class="nav-item active">
+                    <a  class="nav-link" href="#home" style="color: #e3e3e3"><i id="home" class="fa fa-home" aria-hidden="true" style="display:none"></i>Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">Nuestro Programa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#howItWorks">¿Cómo funciona?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#profile">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="recomendaciones.html" class="nav-link">Recomendaciones COVID</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto nav-derecha">
+                <li class="nav-item">
+                    <a class="nav-link" href="view/auth/inicio-sesion/iniciar-sesion.php">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="view/auth/registro/registro.php">Registrarse</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cover -->
+    <section class="container mt-5 py-5" id="home">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 align-self-center">
+                <h3 class="font-title cover-title-font">
+                    Programa de Empoderamiento de Mujeres y <br> Pequeños Negocios
+                </h3>
+                <p class="text-color text-justify cover-caption-font">En Fundación Coca-Cola queremos reconocer e
+                    impulsar a las tenderas y los tenderos en México. <br> <br> Con este curso diseñado especialmente
+                    para ti mejorarás el manejo de tu tienda de abarrotes o miscelánea, tu salud financiera y tu
+                    desempeño como empresaria o empresario.
+                </p>
+
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 mb-3">
+                        <input id="indexEmailInput" type="email" class="form-control input-rounded shadow"
+                            placeholder="Escribe tu Correo Electrónico">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <a id="indexEmailButton"
+                            class="btn btn-lg shadow-light-red btn-semi-rounded btn-block text-uppercase"
+                            href="view/auth/registro/capacitado.php">Entrar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 align-self-center mt-4 text-right">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/Celia/celia-bienvenida.png"
+                    class="img-fluid" width="500" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Animation -->
+    <section>
+        <svg width="100%" height="172" fill="none">
+            <path fill="#ffe1c5">
+                <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="20s"
+                    values="
+              M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;
+  
+              M0 86.3149C316 86.315 444 159.155 884 51.1554C1324 -56.8446 1320.29 34.1214 1538 70.4063C1814 116.407 2156 188.408 2560 86.315V232.317L0 232.316V86.3149Z;
+  
+              M0 53.6584C158 11.0001 213 0 363 0C513 0 855.555 115.001 1154 115.001C1440 115.001 1626 -38.0004 2560 53.6585V199.66L0 199.66V53.6584Z;
+  
+              M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;" />
+            </path>
+        </svg>
+        <svg style="transform: rotate(180deg)" width="100%" height="172" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#ffe1c5">
+                <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="20s"
+                    values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;
+  
+              M0 86.3149C316 86.315 444 159.155 884 51.1554C1324 -56.8446 1320.29 34.1214 1538 70.4063C1814 116.407 2156 188.408 2560 86.315V232.317L0 232.316V86.3149Z;
+  
+              M0 53.6584C158 11.0001 213 0 363 0C513 0 855.555 115.001 1154 115.001C1440 115.001 1626 -38.0004 2560 53.6585V199.66L0 199.66V53.6584Z;
+  
+              M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;" />
+            </path>
+        </svg>
+    </section>
+
+    <!-- INFORMATION -->
+    <section id="info" class="p-5">
+        <div class="container text-center">
+            <h2 class="font-title title-color text-uppercase">Nuestro Programa</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/programa-1.png"
+                        width="150" class="img-fluid">
+                    <p class="text-dark">
+                        Ahora más que nunca Fundación Coca-Cola está comprometida con las mujeres que atienden o tienen
+                        una tienda de abarrotes o misceláneas
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/programa-2.png"
+                        width="150" class="img-fluid">
+                    <p class="text-dark">
+                        Las adversidades del Covid-19 han sido muchas para la sociedad. La pandemia generó un retroceso
+                        de cerca de 10 años en la participación laboral de las mujeres (CEPAL)
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/programa-3.png"
+                        width="150" class="img-fluid">
+                    <p class="text-dark">
+                        Este es un Programa de capacitación para el crecimiento y la mejora de las personas y sus
+                        negocios
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 align-self-center text-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/Celia/celia-cajera.png"
+                    class="img-fluid" width="400">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 align-self-center">
+                <p style="font-size: 20px;" class="text-justify p-4">
+                    Conoce a Celia, nuestra tendera experta, quien te acompañará en el curso mediante 3 módulos.
+                    <br><br> Te invitamos a sumarte a nuestro grupo de Facebook Grandes Tenderas <br>
+                    <a id="grandestenderas-link" href="#!" target="_blank">@grandestenderas</a> para seguir aprendiendo.
+                    <br>
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/Celia/mensaje.png"
+                        class="img-fluid mt-3" alt="">
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="p-5">
+        <div class="container text-center">
+            <h2 class="font-title title-color text-uppercase">¿Cómo lo haremos?</h2>
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 align-self-center">
+                <p style="font-size: 20px;" class="text-justify p-4">
+                    Dentro de esta plataforma encontrarás material audiovisual, distribuido en 3 módulos, donde
+                    aprenderás a aumentar tus ganancias y cumplir tus metas de negocio. <br> <br>
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/Celia/mensaje1.png"
+                        class="img-fluid" alt="">
+                    <a href="view/auth/registro/capacitado.php"
+                        class="btn btn-lg shadow-light-red btn-semi-rounded btn-block text-uppercase" href="#!">Comienza
+                        a crecer</a>
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 align-self-center text-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/Celia/celia-01.png"
+                    class="img-fluid" width="400">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="p-5 mt-5" id="howItWorks">
+        <div class="container text-center">
+            <h2 class="font-title title-color text-uppercase">¿Cómo funciona?</h2>
+        </div>
+    </section>
+
+    <div class="text-center">
+        <h3>Pasos para seguir</h3>
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                <div class="features">
+                    <h1>1</h1>
+                    <p style="margin-left: 0px;" class="text-muted">
+                        Regístrate con tu <br> número telefónico</p>
+                </div>
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/como-funciona1.png"
+                    width="150" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                <div class="features">
+                    <h1>2</h1>
+                    <p class="text-muted">
+                        Toma nuestro <br> curso </p>
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/como-funciona2.png"
+                        width="150" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                <div class="features">
+                    <h1>3</h1>
+                    <p class="text-muted">
+                        Recibe tu constancia y aplica el conocimiento en tu negocio </p>
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/como-funciona3.png"
+                        width="150" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <h4>Puedes ingresar en cualquier momento <br> y retomar las lecciones</h4>
+        <a href="view/auth/registro/capacitado.php" class="btn btn-lg shadow-light-red btn-semi-rounded text-uppercase"
+            href="#!">Detalles y precio</a>
+    </div>
+
+
+    <section id="profile" class="p-5 mt-5">
+        <div class="container text-center">
+            <h2 class="font-title title-color text-uppercase">Perfil de las y los <br> participantes</h2>
+            <div class="row mt-5">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center">
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/perfil1.png"
+                        class="img-fluid" width="250" alt="">
+                    <h5 class="font-weight-bold mt-2">Propietarios y propietarias, encargados o encargadas de un pequeño
+                        negocio con poder de decisión
+                    </h5>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center">
+                    <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/perfil2.png"
+                        class="img-fluid" width="250" alt="">
+                    <h5 class="font-weight-bold mt-2">Mayor de 18 años</h5>
+                    <h5 class="font-weight-bold mt-2">Invitados y referidos</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aliados -->
+    <section class="mt-3 container">
+        <h2 class="font-title title-color text-uppercase text-center">Alianzas</h2>
+        <div class="row mt-2">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/1200+Logosimbolo_RGB_fondos+claros.png"
+                    class="img-fluid" width="90" alt="">
+
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/logo+ccme-03.png"
+                    class="img-fluid" width="150" alt="">
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/logo+Inmujer+Oaxaca.jpg"
+                    class="img-fluid" width="90" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/logo+pico+amarillo-01.png"
+                    class="img-fluid" width="100" alt="">
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/logo+UAEH+Alta+resoluci%E0%B8%82n.png"
+                    class="img-fluid" width="100" alt="">
+
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/LOGOTIPOIEMUJERES2020NEGRO-01.png"
+                    class="img-fluid" width="150" alt="">
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/LOGOUACAM.png"
+                    class="img-fluid" width="130" alt="">
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/thumbnail_inmunay_FB_perfil.png"
+                    class="img-fluid" width="130" alt="">
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/UdeC_2L+izq_Negro.png"
+                    class="img-fluid" width="130" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/Logo_JPG.png"
+                    class="img-fluid" width="100" alt="">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/logoH__1_-removebg-preview.png"
+                    class="img-fluid" width="150" alt="">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/sede.png"
+                    class="img-fluid" width="150" alt="">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center mx-auto align-self-center">
+
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center mx-auto align-self-center">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/qroo.png"
+                    class="img-fluid" width="100" alt="">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center mx-auto align-self-center">
+
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <hr>
+    <!-- Logos -->
+    <section class="container p-3 text-center mt-3">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 align-self-center my-3">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/PM_LOGO_HOR_ROJO-01.png"
+                    width="200" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 align-self-center my-3">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/Logo_FUNDES.png"
+                    width="200" class="img-fluid" alt="">
+            </div>
+            <!-- 
+        <div class="col-lg-3 col-md-6 col-sm-12 align-self-center">
+        <img src="src/media/Logos/tecnm.png" width="150" class="img-fluid" alt="">
+      </div>
+      -->
+            <div class="col-lg-4 col-md-4 col-sm-12 align-self-center my-3">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/alianzas+/Logo+ITSCH.png"
+                    width="90" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center mt-5 mb-3">
+                <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/coca.png"
+                    width="250" class="img-fluid" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="section footer-classic text-white cover-caption-font text-center" style="background: #FF6720;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12 mb-3 text-center"></div>
+                <div class="col-lg-2 col-md-2 col-sm-12 mb-3 text-center">
+
+                    <a id="twitter-link" href="#!">
+                        <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/twitter.svg"
+                            class="img-fluid" width="30" alt="">
+                        <div style="margin-bottom: 10px;"></div>
+                        Twitter
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 mb-3 text-center">
+                    <a id="facebook-link" href="#!">
+                        <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/facebook.svg"
+                            class="img-fluid" width="30" alt="">
+                        <div style="margin-bottom: 10px;"></div>
+                        Facebook
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 mb-3 text-center">
+                    <a id="linkedin-link" href="#!">
+                        <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/linkedin.svg"
+                            class="img-fluid" width="30" alt="">
+                        <div style="margin-bottom: 10px;"></div>
+                        Linkedin
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 mb-3 text-center">
+                    <a id="youtube-link" href="#!">
+                        <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/youtube.svg"
+                            class="img-fluid" width="30" alt="">
+                        <div style="margin-bottom: 10px;"></div>
+                        Youtube
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 mb-3 text-center"></div>
+            </div>
+        </div>
+
+        <div class="row no-gutters social-container">
+            <div class="col">
+                <a class="social-inner" href="http://avisodeprivacidad.coca-cola.com.mx/" target="_blank"><span>Aviso de
+                        Privacidad</span></a>
+            </div>
+            <div class="col">
+                <a class="social-inner" href="mailto:empoderamiento.coca-cola@cdhidalgo.tecnm.mx"><span>
+                        <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/email.svg"
+                            class="img-fluid mr-2" width="20" alt="">
+                        empoderamiento.cocacola@cdhidalgo.tecnm.mx</span></a>
+                <a class="social-inner" href="https://wa.link/2rdomf" target="_blank" style="margin-top: -25px;"><span>
+                        <img src="https://prod-015845-mexicococacola-cloudfronts3content-12ei93trh58xd.s3.us-west-1.amazonaws.com/5by20-bucket/landing/phone.svg"
+                            class="img-fluid mr-2" width="20" alt=""> (786) 140 0515</span></a>
+            </div>
+            <div class="col"><a class="social-inner" href="view/soporte/soporte.php"><span>Preguntas
+                        Frecuentes</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="src/js/validation.js"></script>
+    <script src="src/js/host.js"></script>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
